@@ -8,26 +8,87 @@
     <meta name="description" content="Svolgimento esercizio 4">
     <link rel="stylesheet" href="./style.css">
     <title>Toboolist</title>
-</head>
 
+</head>
 
 <body>
     <!-- Creo l'header con Logo e h1 -->
     <header>
         <div class="header-container">
-            <img src="img/Logo.png" alt="Logo">
+            <img src="img/Logo.png" alt="Toboolist Logo">
             <h1>Toboolist</h1>
         </div>
     </header>
 
-    <div class="card-slide" id="button-slide">
+    <!-- Creo la sezione per i bottoni -->
+    <div class="card-button">
         <button class="button" id="task-button">Add task</button>
         <button class="button" id="section-button">Add section</button>
     </div>
 
+    <!-- Creo la sezione per la lista di cose da fare -->
+    <section class="card-todo-list">
 
-    <section id="todo-list-section">
+        <!-- Creo la lista delle varie voci -->
+        <ul id="list">
 
+            <!-- Categoria New Task -->
+            <div class="triangle-down">&#9660;</div>
+            <h3 class="categories">New Task</h3>
+
+            <li class="li-item">
+                <p class="checked">&#10003;</p>
+                <p>Quarterly Newsletter <span class="editorial">Editorial</span></p>
+            </li>
+
+            <!-- Categoria Today -->
+            <div class="triangle-down">&#9660;</div>
+            <h3 class="categories">Today</h3>
+
+            <li class="li-item">
+                <p class="checked">&#10003;</p>
+                <p>Recruiting blog post <span class="editorial">Editorial</span></p>
+            </li>
+
+            <li class="li-item">
+                <p class="checked">&#10003;</p>
+                <p>Mobile app launch <span class="q1-goals">Q1 goals</span></p>
+            </li>
+
+            <li class="li-item">
+                <p class="cross-mark">&#10007;</p>
+                <p>Interview John H. <span class="recruiting">Recruiting</span></p>
+            </li>
+
+            <li class="li-item">
+                <p class="checked">&#10003;</p>
+                <p>Summit update to mobile storefronts <span class="mobile">Mobile</span></p>
+            </li>
+
+            <!-- Categoria Upcoming -->
+            <div class="triangle-down">&#9660;</div>
+            <h3 class="categories">Upcoming</h3>
+
+            <li class="li-item">
+                <p class="cross-mark">&#10007;</p>
+                <p>Schedule Meeting with Alex <span class="recruiting">Recruiting</span></p>
+            </li>
+
+            <li class="li-item">
+                <p class="checked">&#10003;</p>
+                <p>Homepage refresh <span class="website">Website</span></p>
+            </li>
+
+            <li class="li-item">
+                <p class="cross-mark">&#10007;</p>
+                <p>Onboard new Sales team members <span class="sales">Sales</span></p>
+            </li>
+
+            <li class="li-item">
+                <p class="checked">&#10003;</p>
+                <p>Review editorial character <span class="editorial">Editorial</span></p>
+            </li>
+        </ul>
 
     </section>
 

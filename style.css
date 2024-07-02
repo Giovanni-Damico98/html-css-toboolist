@@ -32,3 +32,25 @@ header {
     margin: 0;
     margin-left: 5px;
 }
+
+.button {
+    border-radius: 5px;
+    padding: 3px;
+    color: #808080;
+    border-width: 1px;
+
+}
+
+#task-button {
+    background-color: #1E90FF;
+    color: white;
+    margin: 10px 5px 0 20px;
+}
+
+.card-slide {
+    margin: 15px auto;
+    width: 60%;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+}
